@@ -1,0 +1,69 @@
+@import "tailwindcss";
+
+@layer base {
+  body {
+    font-family: 'Plus Jakarta Sans', system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+    transition: background-color 0.3s ease, color 0.3s ease;
+  }
+}
+
+.font-serif {
+  font-family: 'Playfair Display', Georgia, Cambria, 'Times New Roman', Times, serif;
+}
+
+.font-display {
+  font-family: 'Outfit', 'Plus Jakarta Sans', sans-serif;
+}
+
+/* Theme classes applied to app container - Old Money Refinement */
+.theme-light {
+  --bg-main: #FAF9F6;
+  --bg-surface: #FFFFFF;
+  --bg-surface-subtle: #F4F3EE;
+  --border-main: #E5E2DA;
+  --border-focus: #C5A880;
+  --text-main: #1C1917;
+  --text-muted: #6B665E;
+  --accent-color: #244837;
+  --accent-gold: #B38F5F;
+}
+
+.theme-dark {
+  --bg-main: #0F1311;
+  --bg-surface: #161D19;
+  --bg-surface-subtle: #1F2722;
+  --border-main: #28342D;
+  --border-focus: #C5A880;
+  --text-main: #F4F3EE;
+  --text-muted: #9EABA2;
+  --accent-color: #C5A880;
+  --accent-green: #2E5C45;
+}
+
+.theme-neon {
+  --bg-main: #070B09;
+  --bg-surface: #0E1612;
+  --bg-surface-subtle: #14201A;
+  --border-main: #1D3027;
+  --border-focus: #34D399;
+  --text-main: #F4F3EE;
+  --text-muted: #A7F3D0;
+  --accent-color: #34D399;
+}
+
+/* Smooth custom scrollbars */
+::-webkit-scrollbar {
+  width: 6px;
+  height: 6px;
+}
+::-webkit-scrollbar-track {
+  background: rgba(128, 128, 128, 0.08);
+}
+::-webkit-scrollbar-thumb {
+  background: rgba(128, 128, 128, 0.25);
+  border-radius: 9999px;
+}
+::-webkit-scrollbar-thumb:hover {
+  background: rgba(128, 128, 128, 0.4);
+}
+

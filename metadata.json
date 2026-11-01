@@ -1,0 +1,7 @@
+{
+  "name": "NeoSet",
+  "description": "AI-powered smart virtual wardrobe app featuring personalized 2D avatar try-on, digital closet management, and context-aware outfit recommendations.",
+  "requestFramePermissions": ["geolocation"],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
+
